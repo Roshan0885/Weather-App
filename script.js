@@ -1,5 +1,5 @@
 const API_KEY = "4dffaafc633e8bdd0f458405819c2d64";
-
+// NOTE: This API key is included only for Tutedude assignment review.
   function fetchWeather(city = "Delhi") {
     const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
