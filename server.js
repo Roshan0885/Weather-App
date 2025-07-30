@@ -16,10 +16,6 @@ if (!process.env.API_KEY) {
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
-});
-
 
 app.get("/weather", async (req, res) => {
   const city = req.query.city || "Delhi";
