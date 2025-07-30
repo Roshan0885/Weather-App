@@ -14,7 +14,7 @@ if (!process.env.API_KEY) {
 }
 
 
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "Public")));
 
 
 app.get("/weather", async (req, res) => {
@@ -37,7 +37,7 @@ app.get("/weather", async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public'));
+  res.sendFile(path.join(__dirname, 'Public'));
 });
 
 
