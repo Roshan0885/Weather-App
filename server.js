@@ -37,8 +37,9 @@ app.get("/weather", async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Weather App API is running.');
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
+
 
 
 app.listen(PORT, () => {
