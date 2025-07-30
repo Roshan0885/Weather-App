@@ -36,6 +36,11 @@ app.get("/weather", async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Weather App API is running.');
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
