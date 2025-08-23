@@ -1,66 +1,64 @@
 html {
-    font-size: 16px; 
+  font-size: 16px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
-    background: #343434;
-    font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: #343434;
+  font-size: 1rem;
 }
 
 .container {
-    width: 80vw;
-    max-width: 30rem;
+  width: 90vw;
+  max-width: 26rem;
 }
 
 .card {
-    border-radius: 2rem;
-    background-color: #343434;
-    box-shadow: 0.3rem 0.3rem 0.6rem #191b1b, -0.3rem -0.3rem 0.6rem #595959;
-    padding: 2rem;
-    text-align: center;
+  border-radius: 3.125rem; 
+  background-color: #343434;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem #191b1b, -0.3125rem -0.3125rem 0.625rem #595959;
+  padding: 2rem;
+  text-align: center;
 }
 
 .card h4 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 1.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
 }
 
 img#icon {
-    width: 6rem;
-    height: auto;
+  width: 5rem;
+  height: auto;
 }
 
 h6#weather {
-    text-transform: capitalize;
-    font-size: 1.25rem;
-    margin: 0.5rem 0;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
 }
 
 button.refresh {
-    display: block;
-    width: 5rem;
-    height: 5rem;
-    margin: 1.5rem auto;
-    background: transparent;
-    border: 0;
-    color: #9c9c9d;
-    font-size: 1.875rem;
-    border-radius: 50%;
-    box-shadow: 0.5rem 0.2rem 0.6rem #252525, 0.3rem 0.3rem 1rem #4a4a4a;
-    cursor: pointer;
-    transition: box-shadow 0.2s ease-in-out;
+  display: block;
+  width: 6.25rem;  
+  height: 6.25rem;
+  margin: 1rem auto;
+  background: transparent;
+  border: none;
+  color: #9c9c9d;
+  font-size: 2rem;
+  border-radius: 50%;
+  box-shadow: 0.625rem 0.25rem 0.625rem #252525, 0.3125rem 0.3125rem 1.125rem #4a4a4a;
+  cursor: pointer;
 }
 
 button.refresh:hover {
-    box-shadow: inset 0.5rem 0.2rem 0.6rem #252525, inset 0.3rem 0.3rem 1rem #4a4a4a;
+  box-shadow: inset 0.625rem 0.25rem 0.625rem #252525, inset 0.3125rem 0.3125rem 1.125rem #4a4a4a;
 }
-
